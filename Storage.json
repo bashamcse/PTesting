@@ -4,7 +4,7 @@
 	"parameters": {
 		"storageAccountName": {
 			"type": "string",
-			"defaultValue": "[concat('store', uniquestring(resourceGroup().id))]",
+			"defaultValue": "nestorageacc2001",
 			"metadata": {
 				"description": "Storage Account Name."
 			}
